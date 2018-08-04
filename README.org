@@ -1,13 +1,9 @@
 #+TITLE: google-play-music layer
-
-# The maximum height of the logo should be 200 pixels.
-[[img/google-play-music.png]]
-
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
- - [[#description][Description]]
- - [[#install][Install]]
- - [[#key-bindings][Key bindings]]
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
 
 * Description
 This layer does wonderful things:
