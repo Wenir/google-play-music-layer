@@ -69,6 +69,8 @@ Each entry is either:
       "amp" 'google-play-music-play-pause
       "amu" 'google-play-music-unwind
       "amf" 'google-play-music-forward
+      "am," 'google-play-music-thumbs-down
+      "am." 'google-play-music-thumbs-up
       "ams" 'google-play-music-start)))
 
 (defun google-play-music/init-websocket()
