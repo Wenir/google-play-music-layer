@@ -31,8 +31,9 @@
 
 (defconst google-play-music-packages
   '((google-play-music :location
-                       (recipe :repo merrickluo/google-play-music.el
-                                :fetcher github)))
+                       (recipe :repo wenir/google-play-music.el
+                               :fetcher github))
+	(websocket))
   "The list of Lisp packages required by the google-play-music layer.
 
 Each entry is either:
@@ -69,5 +70,8 @@ Each entry is either:
       "amu" 'google-play-music-unwind
       "amf" 'google-play-music-forward
       "ams" 'google-play-music-start)))
+
+(defun google-play-music/init-websocket()
+  (use-package websocket))
 
 ;;; packages.el ends here
