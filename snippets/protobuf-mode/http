@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-#name : http
-#key : http
-#contributor : A.I.
-# --
-option (google.api.http) = {
-  $1
-};

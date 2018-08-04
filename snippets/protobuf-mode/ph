@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: protobuf header
-# key: ph
-# --
-syntax = "proto3";
-
-package $1;
-
-import "google/api/annotations.proto";
