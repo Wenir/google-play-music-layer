@@ -71,6 +71,7 @@ Each entry is either:
       "amf" 'google-play-music-forward
       "am," 'google-play-music-thumbs-down
       "am." 'google-play-music-thumbs-up
+      "am/" 'google-play-music-reset-rating
       "ams" 'google-play-music-start)))
 
 (defun google-play-music/init-websocket()
