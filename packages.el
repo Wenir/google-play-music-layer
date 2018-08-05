@@ -66,13 +66,13 @@ Each entry is either:
     :config
     (spacemacs/declare-prefix "am" "google-play-music")
     (spacemacs/set-leader-keys
-      "amp" 'google-play-music-play-pause
-      "amu" 'google-play-music-unwind
-      "amf" 'google-play-music-forward
-      "am," 'google-play-music-thumbs-down
-      "am." 'google-play-music-thumbs-up
+      "amk" 'google-play-music-play-pause
+      "amp" 'google-play-music-previous
+      "amn" 'google-play-music-next
+      "am." 'google-play-music-thumbs-down
+      "am," 'google-play-music-thumbs-up
       "am/" 'google-play-music-reset-rating
-      "ams" 'google-play-music-start)))
+      "amc" 'google-play-music-connect)))
 
 (defun google-play-music/init-websocket()
   (use-package websocket))
